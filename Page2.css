@@ -1,0 +1,135 @@
+.rectangle {
+  /* width: 1100px;
+  height: 500px; */
+  padding: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  border-radius: 12px;
+  margin: 30px;
+  opacity: 1;
+}
+.gridcontainer {
+  display: flex;
+  grid: 200px / auto auto;
+  grid-gap: 10px;
+
+  padding: 10px;
+}
+.address {
+  padding-top: 20px;
+  padding-left: 0px;
+  text-align: left;
+  font: normal normal bold 24px/28px Lato;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+.required::after{
+  content:"*";
+  color: rgb(230, 35, 35);
+}
+.leftside {
+
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 40px;
+  text-align: left;
+  font: normal normal bold 20px/24px Lato;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #686868;
+  line-height: 2.5;
+}
+.inputfields {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  color: #393939;
+  font: normal normal normal 20px/24px Lato;
+  letter-spacing: 0px;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  border: 1px solid #b2b2b2;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.outer {
+  text-align: left;
+}
+
+.button {
+  float: right;
+  font-size: 20px;
+  opacity: 100%;
+  color: #ffffff;
+  top: 900px;
+  left: 500px;
+  width: 100px;
+  height: 50px;
+  background: #ff8000 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 12px #0000000f;
+  border-radius: 6px;
+  opacity: 1;
+}
+.time
+{
+  font: normal normal bold 20px/24px Lato;
+  width:"46px";
+  height: "24px";
+   left: "348px";
+   opacity: 1;
+   color: #686868;
+   line-height: 4;
+}
+
+.timeI{
+  background: #F6F6F6 0% 0% no-repeat padding-box;
+border: 1px solid #B2B2B2;
+border-radius: 8px;
+opacity: 1;
+width: 100px;
+height: 56px;
+}
+
+#from{
+  font:'20px Lato';
+  width:"46px";
+  height: "24px";
+  margin-Top:"33px"
+}
+
+#to
+{
+  margin-left:205px;
+  font:'20px Lato';
+  width:"21px";
+  height: "24px";
+   left: "599px";
+  
+}
+#leftside
+{
+  width: 600px;
+}
+#buttontime
+{
+  background-color: transparent;
+  border: 0px solid white;
+  color:#0078D4;
+  width:37px;
+  height:37px;
+}
+#addtime
+{
+  background-color: transparent;
+  border: 0px solid white;
+  color:#0078D4;
+}
+#add
+{
+  width: 114px;
+height: 27px;
+}
